@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const ItemCardStyles = styled.div`
-  background-color: #adc2e6;
+  background-color: #4c5d7b;
   margin-top: 3rem;
   margin-bottom: 3rem;
   width: 300px;
@@ -19,11 +19,11 @@ const ItemCardStyles = styled.div`
   & a {
     color: white;
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
     font-size: 22px;
     margin-top: -10px;
   }
-  & h3 {
+  & p {
     color: white;
     font-size: 25px;
     padding-left: 1rem;
@@ -31,27 +31,41 @@ const ItemCardStyles = styled.div`
   &:hover {
     transform: translateY(-5px);
   }
-  @media (max-width: 767px) {
-    padding-right: 15px;
-    padding-bottom: 3rem;
-    & .title-container {
-      height: 50px;
-      margin-top: -15px;
-      width: 100%;
-      background-color: #545454;
-    }
-    & img {
-      width: 150px;
-      height: 80%;
+  @media (max-width: 1025px) {
+    width: 350px;
+    height: 380px;
+    img {
+      margin: 10px 10px 0 10px;
+      height: 220px;
+      width: 330px;
     }
     & a {
-      text-decoration: none;
+      font-size: 25px;
+      margin-top: -90px;
     }
-    & h1 {
-      transform: translateY(90%);
+    & h3 {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    width: 170px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 9px 13px 26px -7px rgba(0, 0, 0, 0.65);
+
+    margin-bottom: 1rem;
+    img {
+      margin: 10px 10px 0 10px;
+      height: 120px;
+      width: 150px;
+    }
+    & a {
+      font-size: 15px;
+      margin-top: -70px;
+    }
+    & h3 {
       color: white;
-      text-align: center;
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 `;

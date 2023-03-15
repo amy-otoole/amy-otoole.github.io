@@ -20,7 +20,7 @@ const Home = () => {
       <SkinnyBanner bannerHeading="Top Picks" />
       <ItemCards itemCardDataEnd={4} />
       <SkinnyBanner bannerHeading="Discover More" />
-      <PromoBanner />
+      {/*<PromoBanner />*/}
       <SkinnyBanner bannerHeading="Discover More" />
       <DiscoverBanner
         discoverBannerImage={DiscoverBannerImage}

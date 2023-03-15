@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const NavBarStyles = styled.div`
-  background-color: #7695b1;
+  background-color: #3A485F;
   height: 80px;
   width: 100%;
   box-shadow: 1px 1px 3px #373535;
@@ -33,6 +33,34 @@ const NavBarStyles = styled.div`
     margin-top: 7px;
     margin-left: 9%;
     cursor: pointer;
+  }
+   @media (max-width: 1025px) {
+     img {
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 4%;
+  }
+   & h1 {
+  
+   
+    margin-top: -45px;
+  }
+     & ul {
+  
+    margin-left: 48%;
+   
+    margin-top: -7%;
+  }
+  }
+  @media (max-width: 767px) {
+    height: 60px;
+    .desktop-nav {
+      display: none;
+    }
+    & .nav-logo {
+      display: none;
+    }
   }
 `;
 export default NavBarStyles;

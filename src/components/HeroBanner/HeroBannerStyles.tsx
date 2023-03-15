@@ -6,16 +6,16 @@ const HeroBannerStyles = styled.div`
   box-shadow: 1px 1px 3px #373535;
   & h1 {
     width: 40%;
-    color: white;
+    color: #3c4662;
     font-size: 70px;
     margin-top: -430px;
     margin-left: 50%;
     text-align: center;
-    text-shadow: 1px 1px 2px #373535;
+    text-shadow: 1px 1px 2px #fff;
   }
   & p {
     width: 35%;
-    color: #566371;
+    color: #3c4662;
     font-size: 20px;
     margin-left: 53%;
     text-align: center;
@@ -23,16 +23,42 @@ const HeroBannerStyles = styled.div`
 
   & img {
     width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: cover;
   }
+  @media (max-width: 1025px) {
+    width: 100%;
+    height: 320px;
+    box-shadow: 1px 1px 3px #373535;
+    & h1 {
+      width: 60%;
+      font-size: 50px;
+      margin-top: -320px;
+      margin-left: 40%;
+    }
+    & p {
+      width: 50%;
+      margin-left: 45%;
+      margin-top: -20px;
+    }
+    & img {
+      height: 350px;
+    }
+  }
   @media (max-width: 767px) {
-    margin-top: 15%;
-    height: 150px;
+    height: 180px;
     width: 100%;
     & h1 {
-      font-size: 24px;
-      margin-top: -120px;
+      width: 65%;
+      margin-left: 32%;
+      font-size: 27px;
+      margin-top: -180px;
+    }
+    & p {
+      width: 60%;
+      font-size: 14px;
+      margin-left: 35%;
+      margin-top: -10px;
     }
     & img {
       width: 100%;

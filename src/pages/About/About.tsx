@@ -4,43 +4,25 @@ import productsBanner from "../../../public/assets/images/backgrounds/products-h
 import React from "react";
 import SkinnyBanner from "../../components/SkinnyBanner/SkinnyBanner";
 import logoImage from "../../../public/assets/images/backgrounds/logo-with-background.png";
+import BionicReading from "../../components/BionicReading/BionicReading";
 
 const About = () => {
   return (
     <AboutStyles>
-      <HeroBanner heroBannerImage={productsBanner} heroBannerHeading="About Us" />
+      <HeroBanner
+        heroBannerImage={productsBanner}
+        heroBannerHeading="About Us"
+      />
       <SkinnyBanner bannerHeading="Established 2023" />
       <img className="logo-image" src={logoImage} />
-
-      <p className="left-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed leo finibus, vestibulum
-        diam vel, dictum turpis. Fusce pulvinar tempus enim quis accumsan. Quisque porta elit eget
-        leo pulvinar tincidunt. In risus tortor, blandit id tristique at, tristique a leo.
-        Pellentesque dictum lacinia magna quis suscipit. Pellentesque lectus justo, malesuada sed
-        volutpat sit amet, aliquam ut turpis. Mauris convallis condimentum urna, quis vehicula
-        mauris cursus sit amet. Morbi vel venenatis lorem. Sed eget varius orci, in congue mi. Proin
-        molestie lectus et laoreet lacinia.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed leo finibus, vestibulum
-        diam vel, dictum turpis. Fusce pulvinar tempus enim quis accumsan. Quisque porta elit eget
-        leo pulvinar tincidunt. In risus tortor, blandit id tristique at, tristique a leo.
-        Pellentesque dictum lacinia magna quis suscipit. Pellentesque lectus justo, malesuada sed
-        volutpat sit amet, aliquam ut turpis. Mauris convallis condimentum urna, quis vehicula
-        mauris cursus sit amet. Morbi vel venenatis lorem. Sed eget varius orci, in congue mi. Proin
-        molestie lectus et laoreet lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Etiam sed leo finibus, vestibulum diam vel, dictum turpis. Fusce pulvinar tempus enim quis
-        accumsan. Quisque porta elit eget leo pulvinar tincidunt. In risus tortor, blandit id
-        tristique at, tristique a leo. Pellentesque dictum lacinia magna quis suscipit. Pellentesque
-        lectus justo, malesuada sed volutpat sit amet, aliquam ut turpis. Mauris convallis
-        condimentum urna, quis vehicula mauris cursus sit amet. Morbi vel venenatis lorem. Sed eget
-        varius orci, in congue mi. Proin molestie lectus et laoreet lacinia.
-      </p>
+      <BionicReading
+        as={"p"}
+        text={
+          "Bionic Reading is a new method facilitating the reading process by guiding the eyes through text with artificial fixation points. As a result, the reader is only focusing on the highlighted initial letters and lets the brain center complete the word. In a digital world dominated by shallow forms of reading, Bionic Reading aims to encourage a more in-depth reading and understanding of written content."
+        }
+      />
     </AboutStyles>
   );
 };
 
 export default About;
-
-
-

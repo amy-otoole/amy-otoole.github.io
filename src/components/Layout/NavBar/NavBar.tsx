@@ -2,37 +2,51 @@ import React from "react";
 import NavBarStyles from "./NavBarStyles";
 import { NavLink } from "react-router-dom";
 import Logo from "../../Logo/Logo";
+import DrawerToggle from "../DrawerToggle/DrawerToggle";
+import BionicReading from "../../BionicReading/BionicReading";
 
-const NavBar = () => {
+interface NavBarProps {
+  drawerToggleClicked?: () => void;
+}
+
+const NavBar = ({ drawerToggleClicked }: NavBarProps) => {
   return (
     <NavBarStyles>
       <div>
         {/*Display Logo top right */}
-        <Logo className="header-logo" />
+        <Logo className="nav-logo" />
         {/*When screen size is less than 767px then show Mobile toolbar with hamburger icon */}
-        {/*<nav className="mobile-header">*/}
-        {/*  <DrawerToggle clicked={drawerToggleClicked} />*/}
-        {/*</nav>*/}
+        <nav>
+          <DrawerToggle clicked={drawerToggleClicked} />
+        </nav>
       </div>
       {/*When screen size is greater than 767px then show Desktop toolbar */}
-      <nav>
-        {/*Display site's title*/}
-        <h1>HolteLines</h1>
-        <ul>
-          {/*When Home is clicked redirect to the Home page */}
-          <li>
-            <NavLink to="/home">Home</NavLink>
-          </li>
-          {/*When Products is clicked redirect to the Products page */}
-          <li>
-            <NavLink to="/products">Products</NavLink>
-          </li>
-          {/*When Blog is clicked redirect to the Blog page */}
-          <li>
-            <NavLink to="/about-us">About Us</NavLink>
-          </li>
-        </ul>
-      </nav>
+      <div className="desktop-nav">
+        <nav>
+          {/*Display site's title*/}
+          <h1>HolteLines</h1>
+          <ul>
+            {/*When Home is clicked redirect to the Home page */}
+            <li>
+              <NavLink to="/home">
+                <BionicReading text={"Home"} as={"a"} />
+              </NavLink>
+            </li>
+            {/*When Products is clicked redirect to the Products page */}
+            <li>
+              <NavLink to="/products">
+                <BionicReading text={"Products"} as={"a"} />
+              </NavLink>
+            </li>
+            {/*When Blog is clicked redirect to the Blog page */}
+            <li>
+              <NavLink to="/about-us">
+                <BionicReading text={"About Us"} as={"a"} />
+              </NavLink>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </NavBarStyles>
   );
 };

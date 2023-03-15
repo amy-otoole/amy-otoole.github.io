@@ -7,17 +7,19 @@ interface PromoBannerProps {
   promoBannerText: string;
   smallCard?: boolean;
   className?: string;
+  promoBannerAlt: string;
 }
 
 const PromoBannerCard = ({
   promoBannerImage,
   promoBannerTitle,
   promoBannerText,
-  smallCard
+  smallCard,
+  promoBannerAlt,
 }: PromoBannerProps) => {
   return (
     <PromoBannerCardStyles smallCard={smallCard}>
-      <img src={promoBannerImage} />
+      <img src={promoBannerImage} alt={promoBannerAlt} />
       <h1>{promoBannerTitle}</h1>
       <p>{promoBannerText}</p>
     </PromoBannerCardStyles>

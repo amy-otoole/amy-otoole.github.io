@@ -2,6 +2,7 @@ import React from "react";
 import itemCardsData from "../../components/ItemCards/ItemCardsData.json";
 import { useLocation } from "react-router-dom";
 import "./ProductDetailsStyles.css";
+import BionicReading from "../../components/BionicReading/BionicReading";
 
 const ProductDetails = () => {
   const { pathname } = useLocation();
@@ -10,25 +11,50 @@ const ProductDetails = () => {
     <>
       <div className="grid-container">
         <div className="product-img">
-          <img src={itemCardsData.itemCards[itemNumber].singleViewImage} />
+          <img
+            src={itemCardsData.itemCards[itemNumber].singleViewImage}
+            alt={itemCardsData.itemCards[itemNumber].singleImageAlt}
+          />
         </div>
         <div className="product-title">
-          <h1>{itemCardsData.itemCards[itemNumber].itemTitle}</h1>
+          <BionicReading
+            text={itemCardsData.itemCards[itemNumber].itemTitle}
+            as={"p"}
+          />
         </div>
         <div className="product-description">
-          <p>{itemCardsData.itemCards[itemNumber].itemDescription}</p>
+          <BionicReading
+            text={itemCardsData.itemCards[itemNumber].itemDescription}
+            as={"p"}
+          />
+
           <ul>
-            <li>{itemCardsData.itemCards[itemNumber].itemPrice}</li>
-            <li>{itemCardsData.itemCards[itemNumber].itemStorage}</li>
-            <li>{itemCardsData.itemCards[itemNumber].itemData}</li>
+            <BionicReading
+              text={itemCardsData.itemCards[itemNumber].itemPrice}
+              as={"li"}
+            />
+            <BionicReading
+              text={itemCardsData.itemCards[itemNumber].itemStorage}
+              as={"li"}
+            />
+            <BionicReading
+              text={itemCardsData.itemCards[itemNumber].itemData}
+              as={"li"}
+            />
           </ul>
         </div>
       </div>
       <div className="banner-image">
-        <img src={itemCardsData.itemCards[itemNumber].itemBanner} />
+        <img
+          src={itemCardsData.itemCards[itemNumber].itemBanner}
+          alt={itemCardsData.itemCards[itemNumber].itemBannerAlt}
+        />
       </div>
       <div className="tech-specs">
-        <img src={itemCardsData.itemCards[itemNumber].itemTechSpecs} />
+        <img
+          src={itemCardsData.itemCards[itemNumber].itemTechSpecs}
+          alt={itemCardsData.itemCards[itemNumber].itemTechAlt}
+        />
       </div>
     </>
   );

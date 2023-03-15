@@ -18,6 +18,7 @@ const PromoBanner = () => {
           promoBannerImage={PixelAd}
           promoBannerTitle="Save £199"
           promoBannerText="Grab the all new Google Pixel 7 with 120Gb 5G data from only £38 a month (£49 upfront)"
+          promoBannerAlt={"Pixel "}
         />
       </div>
       <div className="item2">
@@ -26,6 +27,7 @@ const PromoBanner = () => {
           promoBannerTitle="Unlimited 5G Data"
           promoBannerText="Treat yourself to the new iPhone 14 with unlimited 5G data from only £51 a month."
           smallCard
+          promoBannerAlt={"iPhone offer"}
         />
       </div>
       <div className="item3">
@@ -34,6 +36,7 @@ const PromoBanner = () => {
           promoBannerTitle="Galaxy Fold 4"
           promoBannerText="Claim a free chromebook 4 with all Samsung Galaxy Fold 4 plans when purchased before 24th March 2023. "
           smallCard
+          promoBannerAlt={"Fold offer"}
         />
       </div>
     </div>

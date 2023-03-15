@@ -5,7 +5,7 @@ interface PromoBannerStylesProps {
 export const PromoBannerCardStyles = styled.div<PromoBannerStylesProps>`
   box-sizing: border-box;
   border-radius: 25px;
-  color: white;
+  color: #3C4662;
   box-shadow: 5px 5px 20px -7px rgba(0, 0, 0, 0.65);
 
   width: ${(props) => (props.smallCard ? "500px" : "450px")};

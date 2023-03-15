@@ -15,10 +15,15 @@ const ButtonStyles = styled.button`
   &:hover {
     cursor: pointer;
   }
-  @media (max-width: 767px) {
-    width: 150px;
+  @media (max-width: 1025px) {
+    width: 170px;
     height: 50px;
-    margin: -25px 0 0 -15%;
+    margin: 0px 0 0 59%;
+  }
+  @media (max-width: 767px) {
+    width: 120px;
+    height: 35px;
+    margin: -10px 0 0 48%;
     border-radius: 45px;
     font-size: 16px;
 

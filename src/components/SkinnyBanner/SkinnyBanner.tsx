@@ -1,14 +1,14 @@
-import SkinnyBannerStyles from "./SkinnyBannerStyles"
+import SkinnyBannerStyles from "./SkinnyBannerStyles";
+import BionicReading from "../BionicReading/BionicReading";
 
 interface SkinnyBannerProps {
-    bannerImage?: string; 
-    bannerHeading: string; 
+  bannerHeading: string;
 }
-const SkinnyBanner =({bannerImage,     bannerHeading}: SkinnyBannerProps)=>{
-    return (
-        <SkinnyBannerStyles>
-            <img src={bannerImage}/>
-            <h2>{bannerHeading}</h2>
-        </SkinnyBannerStyles>
-    )
-}; export default SkinnyBanner; 
+const SkinnyBanner = ({ bannerHeading }: SkinnyBannerProps) => {
+  return (
+    <SkinnyBannerStyles>
+      <BionicReading text={bannerHeading} as={"p"} />
+    </SkinnyBannerStyles>
+  );
+};
+export default SkinnyBanner;

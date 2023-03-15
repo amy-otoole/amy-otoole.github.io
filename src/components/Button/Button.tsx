@@ -1,11 +1,11 @@
-import React, { FC } from "react";
+import React, { FC, ReactNode } from "react";
 import ButtonStyles from "./ButtonStyles";
 import { NavLink } from "react-router-dom";
 
 //Typed properties of the component
 interface ButtonProps {
   buttonClick?: any;
-  buttonText?: string;
+  buttonText?: ReactNode;
 }
 /*Button accepts an onClick, title and className
 Used to across the site as a standardised button

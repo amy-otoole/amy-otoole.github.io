@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73850ac6-1b13-4072-a994-e43ecc2dc03b" name="Changes" comment="" />
+    <list default="true" id="73850ac6-1b13-4072-a994-e43ecc2dc03b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/BionicReading/BionicReading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/phones/iphone-14/iphone-15-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/phones/iphone-14/iphone-14-banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroBanner/HeroBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroBanner/HeroBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/FooterStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/FooterStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Products/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +44,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="05a96106-20ab-4f96-aba7-98cf78731e81" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,22 +59,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/holte-lines-accessible",
+    "last_opened_file_path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/holte-lines-accessible/src/components/Layout",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/Amy/Downloads/simple-react-app/node_modules/prettier",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "prettierjs.PrettierConfiguration.Package": "/Users/Amy/.npm-global/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/holte-lines-accessible/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Layout" />
       <recent name="$PROJECT_DIR$/src/pages/About" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Button" />
       <recent name="$PROJECT_DIR$/src/components/ItemCards/ProductCards" />
-      <recent name="$PROJECT_DIR$/src/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/About" />
@@ -72,7 +99,8 @@
       <workItem from="1674399499791" duration="1102000" />
       <workItem from="1674400631563" duration="385000" />
       <workItem from="1674744032448" duration="1174000" />
-      <workItem from="1678184688478" duration="378000" />
+      <workItem from="1678184688478" duration="3634000" />
+      <workItem from="1678639109190" duration="14424000" />
     </task>
     <servers />
   </component>

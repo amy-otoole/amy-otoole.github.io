@@ -9,11 +9,11 @@ interface DiscoverBannerProps {
 const DiscoverBanner = ({
   discoverBannerImage,
   discoverBannerTitle,
-  discoverBannerText
+  discoverBannerText,
 }: DiscoverBannerProps) => {
   return (
     <DiscoverBannerStyles>
-      <img src={discoverBannerImage} />
+      <img src={discoverBannerImage} alt="Discover More banner" />
       <h1>{discoverBannerTitle}</h1>
       <p>{discoverBannerText}</p>
     </DiscoverBannerStyles>

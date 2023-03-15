@@ -6,6 +6,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@lrnwebcomponents/enhanced-text": "^4.1.0",
     "@mui/material": "^5.11.4",
     "copy-webpack-plugin": "^9.0.1",
     "eslint-plugin-jest": "^27.2.1",
@@ -14,6 +15,7 @@
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.6.2",
     "styled-components": "^5.3.6",
+    "text-vide": "^1.6.1",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.0",
     "webpack": "^5.58.1"

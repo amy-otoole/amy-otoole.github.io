@@ -8,7 +8,11 @@ import { ProductsStyles } from "./ProductsStyles";
 const Home = () => {
   return (
     <ProductsStyles>
-      <HeroBanner heroBannerImage={productsBanner} heroBannerHeading="Products" />
+      <HeroBanner
+        heroBannerClass="heroBanner"
+        heroBannerImage={productsBanner}
+        heroBannerHeading="Products"
+      />
       <ItemCards />
     </ProductsStyles>
   );
