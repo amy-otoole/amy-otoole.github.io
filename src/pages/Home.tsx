@@ -24,8 +24,8 @@ const Home = () => {
       <SkinnyBanner bannerHeading="Discover More" />
       <DiscoverBanner
         discoverBannerImage={DiscoverBannerImage}
-        discoverBannerText="ho"
-        discoverBannerTitle="hi"
+        discoverBannerText="Purchase any sim only or handset plans and receive instant access to our Pride Rewards scheme. Pride Rewards brings you exclusive offers to top high street shops and exclusive access to competitions."
+        discoverBannerTitle=" Pride Rewards"
       />
     </>
   );

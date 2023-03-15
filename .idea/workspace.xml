@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="73850ac6-1b13-4072-a994-e43ecc2dc03b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/BionicReading/BionicReading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/phones/iphone-14/iphone-15-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/phones/iphone-14/iphone-14-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroBanner/HeroBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroBanner/HeroBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Footer/FooterStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer/FooterStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Products/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/Products.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +41,14 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/holte-lines-accessible/src/components/Layout",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/Amy/.npm-global/lib/node_modules/prettier",
+    "prettierjs.PrettierConfiguration.Package": "/Users/otoolea/IdeaProjects/holtelines-accessible/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/holte-lines-accessible/node_modules/typescript/lib"
+    "ts.external.directory.path": "/Users/otoolea/IdeaProjects/holtelines-accessible/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,6 +84,7 @@
       <workItem from="1674744032448" duration="1174000" />
       <workItem from="1678184688478" duration="3634000" />
       <workItem from="1678639109190" duration="14424000" />
+      <workItem from="1678878932719" duration="1740000" />
     </task>
     <servers />
   </component>
