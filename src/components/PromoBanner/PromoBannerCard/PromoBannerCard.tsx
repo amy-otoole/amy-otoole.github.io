@@ -1,5 +1,6 @@
 import React from "react";
 import { PromoBannerCardStyles } from "./PromoBannerCardStyles";
+import BionicReading from "../../BionicReading/BionicReading";
 
 interface PromoBannerProps {
   promoBannerImage: string;
@@ -20,8 +21,8 @@ const PromoBannerCard = ({
   return (
     <PromoBannerCardStyles smallCard={smallCard}>
       <img src={promoBannerImage} alt={promoBannerAlt} />
-      <h1>{promoBannerTitle}</h1>
-      <p>{promoBannerText}</p>
+      <BionicReading text={promoBannerTitle} as={"h1"}/>
+      <BionicReading text={promoBannerText} as={"p"}/>
     </PromoBannerCardStyles>
   );
 };

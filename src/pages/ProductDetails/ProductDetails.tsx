@@ -1,14 +1,14 @@
 import React from "react";
 import itemCardsData from "../../components/ItemCards/ItemCardsData.json";
 import { useLocation } from "react-router-dom";
-import "./ProductDetailsStyles.css";
 import BionicReading from "../../components/BionicReading/BionicReading";
+import ProductDetailsStyles from "./ProductDetailsStyles";
 
 const ProductDetails = () => {
   const { pathname } = useLocation();
   const itemNumber = Number(pathname.split("/").reverse()[0]) - 1;
   return (
-    <>
+    <ProductDetailsStyles>
       <div className="product-container">
         <div className="product-img">
           <img
@@ -56,7 +56,7 @@ const ProductDetails = () => {
           alt={itemCardsData.itemCards[itemNumber].itemTechAlt}
         />
       </div>
-    </>
+    </ProductDetailsStyles>
   );
 };
 export default ProductDetails;

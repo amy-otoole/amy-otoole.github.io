@@ -6,24 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="73850ac6-1b13-4072-a994-e43ecc2dc03b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBannerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCards.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/AboutStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetailsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetailsStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Products/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/Products.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetailsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetailsStyles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +42,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/otoolea/IdeaProjects/holtelines-accessible",
+    "last_opened_file_path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/amy-otoole.github.io",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "prettierjs.PrettierConfiguration.Package": "/Users/otoolea/IdeaProjects/holtelines-accessible/node_modules/prettier",
+    "prettierjs.PrettierConfiguration.Package": "/Users/Amy/.npm-global/lib/node_modules/prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/otoolea/IdeaProjects/holtelines-accessible/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/amy-otoole.github.io/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,6 +88,8 @@
       <workItem from="1678184688478" duration="3634000" />
       <workItem from="1678639109190" duration="14424000" />
       <workItem from="1678878932719" duration="1740000" />
+      <workItem from="1678956739132" duration="1352000" />
+      <workItem from="1678958287241" duration="3756000" />
     </task>
     <servers />
   </component>
