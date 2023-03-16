@@ -20,8 +20,5 @@ export const AboutStyles = styled.div`
     width: 55%;
     margin-top: -250px;
   }
-  p {
-    font-size: 25px;
-    margin: 2rem 6rem;
-  }
+
 `;

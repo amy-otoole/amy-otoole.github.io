@@ -9,7 +9,7 @@ const ProductDetails = () => {
   const itemNumber = Number(pathname.split("/").reverse()[0]) - 1;
   return (
     <>
-      <div className="grid-container">
+      <div className="product-container">
         <div className="product-img">
           <img
             src={itemCardsData.itemCards[itemNumber].singleViewImage}

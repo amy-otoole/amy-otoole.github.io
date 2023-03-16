@@ -43,7 +43,7 @@ const ItemCardStyles = styled.div`
       font-size: 25px;
       margin-top: -90px;
     }
-    & h3 {
+    & p {
       font-size: 30px;
     }
   }
@@ -63,7 +63,7 @@ const ItemCardStyles = styled.div`
       font-size: 15px;
       margin-top: -70px;
     }
-    & h3 {
+    & p {
       color: white;
       font-size: 18px;
     }

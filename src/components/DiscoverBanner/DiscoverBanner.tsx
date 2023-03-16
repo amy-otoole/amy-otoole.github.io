@@ -1,5 +1,6 @@
 import React from "react";
 import { DiscoverBannerStyles } from "./DiscoverBannerStyles";
+import BionicReading from "../BionicReading/BionicReading";
 
 interface DiscoverBannerProps {
   discoverBannerImage: string;
@@ -14,8 +15,8 @@ const DiscoverBanner = ({
   return (
     <DiscoverBannerStyles>
       <img src={discoverBannerImage} alt="Discover More banner" />
-      <h1>{discoverBannerTitle}</h1>
-      <p>{discoverBannerText}</p>
+        <BionicReading text={discoverBannerTitle} as={"h1"}/>
+        <BionicReading text={discoverBannerText} as={"p"}/>
     </DiscoverBannerStyles>
   );
 };

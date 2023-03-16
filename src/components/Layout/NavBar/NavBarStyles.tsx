@@ -52,6 +52,11 @@ const NavBarStyles = styled.div`
    
     margin-top: -7%;
   }
+     & a {
+       font-size: 22px;
+      
+       padding: 10px;
+     }
   }
   @media (max-width: 767px) {
     height: 60px;

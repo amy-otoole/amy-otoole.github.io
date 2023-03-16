@@ -1,5 +1,6 @@
-.grid-container {
+.product-container {
   display: grid;
+  width: 60vw;
 }
 .product-img img {
   margin-top: 2rem;
@@ -24,6 +25,11 @@
   grid-column: 2;
   grid-row: 1;
   color: #313941;
+  margin-bottom: 5rem;
+
+}
+ul{
+  margin-bottom: 2rem;
 }
 .banner-image img {
   margin-top: -200px;

@@ -13,7 +13,7 @@ const Home = () => {
         heroBannerImage={productsBanner}
         heroBannerHeading="Products"
       />
-      <ItemCards />
+      <ItemCards itemCardClass="item-card-container" />
     </ProductsStyles>
   );
 };

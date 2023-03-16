@@ -21,11 +21,11 @@ const ButtonStyles = styled.button`
     margin: 0px 0 0 59%;
   }
   @media (max-width: 767px) {
-    width: 120px;
-    height: 35px;
-    margin: -10px 0 0 48%;
+    width: 100px;
+    height: 30px;
+    margin: -10px 0 0 51%;
     border-radius: 45px;
-    font-size: 16px;
+    font-size: 14px;
 
     &:hover {
       cursor: pointer;

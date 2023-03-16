@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73850ac6-1b13-4072-a994-e43ecc2dc03b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/ButtonStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBannerStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroBanner/HeroBannerStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCard/ItemCardStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemCards/ItemCardsStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/NavBar/NavBarStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkinnyBanner/SkinnyBannerStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About/AboutStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetailsStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductDetails/ProductDetailsStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Products/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +33,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/Amy/Documents/College/Blackpool/Level 6/Dissertation/holte-lines-accessible/src/components/Layout",
+    "last_opened_file_path": "/Users/otoolea/IdeaProjects/holtelines-accessible",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,18 +67,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
       <recent name="$PROJECT_DIR$/src/pages/About" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Button" />
-      <recent name="$PROJECT_DIR$/src/components/ItemCards/ProductCards" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/Home" />
       <recent name="$PROJECT_DIR$/src/pages/About" />
       <recent name="$PROJECT_DIR$/src/pages/Products" />
       <recent name="$PROJECT_DIR$/public/assets/images/phones/with-backgrounds" />
       <recent name="$PROJECT_DIR$/public/assets/images/backgrounds" />
-      <recent name="$PROJECT_DIR$/public/assets/images/phones" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
