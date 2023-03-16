@@ -12,6 +12,7 @@ const About = () => {
       <HeroBanner
         heroBannerImage={productsBanner}
         heroBannerHeading="About Us"
+        heroBannerClass={"heroBanner"}
       />
       <SkinnyBanner bannerHeading="Established 2023" />
       <img className="logo-image" src={logoImage} />

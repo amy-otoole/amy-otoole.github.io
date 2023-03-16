@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 const ItemCardStyles = styled.div`
   background-color: #4c5d7b;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 3rem auto;
   width: 300px;
   height: 350px;
   border-radius: 10px;
@@ -52,7 +51,6 @@ const ItemCardStyles = styled.div`
     height: 230px;
     border-radius: 10px;
     box-shadow: 9px 13px 26px -7px rgba(0, 0, 0, 0.65);
-
     margin-bottom: 1rem;
     img {
       margin: 10px 10px 0 10px;
@@ -67,6 +65,9 @@ const ItemCardStyles = styled.div`
       color: white;
       font-size: 18px;
     }
+     &:hover {
+    transform: translateY(0);
+  }
   }
 `;
 export default ItemCardStyles;

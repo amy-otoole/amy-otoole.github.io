@@ -35,6 +35,7 @@ display: grid;
     display: grid;
     column-gap: 20px;
     height: 100%;
+    margin-bottom: 2rem;
   }
   .item1{
     grid-column: 1;

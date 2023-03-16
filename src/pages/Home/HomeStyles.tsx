@@ -11,19 +11,20 @@ const HomeStyles =styled.div`
   @media(max-width: 1025px){
     & .item-card-container {
       display: grid;
-      transform: translateY(-9%);
+      transform: translateY(-10%);
       grid-template-columns: auto auto;
       grid-template-rows: 430px 400px;
-      margin: 2rem 0;
+      width: 100%; 
+      margin: 2rem auto 0 auto;
     }
   }
   @media(max-width: 767px){
     & .item-card-container {
       display: grid;
-      transform: translateY(-9%);
+      transform: translateY(-15%);
       grid-template-columns: auto auto;
       grid-template-rows: 250px 250px;
-      margin-bottom: 4rem;
+       margin: 1rem  auto;
     }
   }
      

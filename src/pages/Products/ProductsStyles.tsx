@@ -17,45 +17,40 @@ export const ProductsStyles = styled.div`
     padding-left: 4%;
     grid-template-columns: auto auto auto auto;
   }
-  
-  @media(max-width: 1025px) {
+
+  @media (max-width: 1025px) {
     .heroBanner {
       height: 200px;
       width: 100%;
       margin-bottom: 8rem;
-
     }
-    .heroBanner h1{
+    .heroBanner h1 {
       margin-top: -230px;
-    
     }
     & .item-card-container {
       display: grid;
       padding-left: 2%;
-      grid-template-columns: auto auto  ;
+      grid-template-columns: auto auto;
       grid-template-rows: 430px 430px 430px 430px 430px 430px;
-margin-bottom: 3rem;
+      margin-bottom: 3rem;
       margin-top: 3rem;
-
     }
   }
-  @media(max-width: 767px) {
+  @media (max-width: 767px) {
     .heroBanner {
       height: 150px;
       width: 100%;
       margin-bottom: 8rem;
-     
     }
-   .heroBanner h1{
-     margin-top: -100px;
-     font-size: 45px;
-     
-   }
+    .heroBanner h1 {
+      margin-top: -100px;
+      font-size: 45px;
+    }
     & .item-card-container {
-      transform: translateY(-9%);
+      transform: translateY(-12%);
       grid-template-columns: auto auto;
       grid-template-rows: 250px 250px 250px 250px 250px 250px;
-      margin-bottom: -5rem;
+      margin-bottom: -7rem;
     }
   }
 `;
