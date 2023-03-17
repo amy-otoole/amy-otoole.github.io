@@ -32,48 +32,43 @@ export const DiscoverBannerStyles = styled.div`
     margin-left: auto;
     margin-right: auto;
   }
-  
-    @media (max-width: 1025px) {
-   
+
+  @media (max-width: 1025px) {
     width: 90vw;
     padding: 1rem;
-    height: 300px;
+    height: 350px;
     h1 {
-    font-size: 27px;
+      font-size: 27px;
       transform: translateY(-290px);
     }
     p {
       margin: 2rem;
-   font-size: 22px;
+      font-size: 22px;
       transform: translateY(-300px);
-    } 
+    }
     .logo {
-    height: 70px;
-    width: 70px;
-    transform: translateY(-290px);
-
-  }
+      height: 70px;
+      width: 70px;
+      transform: translateY(-290px);
+    }
   }
   @media (max-width: 767px) {
-   
     width: 90vw;
     padding: 1rem;
-    height: 300px;
+    height: 350px;
     h1 {
-    font-size: 25px;
-      transform: translateY(-290px);
+      font-size: 25px;
+      transform: translateY(-330px);
     }
     p {
       margin: 2rem;
-   font-size: 17px;
-      transform: translateY(-300px);
-    } 
+      font-size: 17px;
+      transform: translateY(-350px);
+    }
     .logo {
-    height: 70px;
-    width: 70px;
-    transform: translateY(-290px);
-
+      height: 70px;
+      width: 70px;
+      transform: translateY(-330px);
+    }
   }
-  }
- 
 `;
