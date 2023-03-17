@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7629af6-7269-49a3-9b4e-60bfcec776ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBannerStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DiscoverBanner/DiscoverBannerStyles.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PromoBanner/PromoBannerCard/PromoBannerCardStyles.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <workItem from="1678878932719" duration="1740000" />
       <workItem from="1678956739132" duration="1352000" />
       <workItem from="1678958287241" duration="3756000" />
-      <workItem from="1679049379423" duration="1584000" />
+      <workItem from="1679049379423" duration="1774000" />
     </task>
     <servers />
   </component>

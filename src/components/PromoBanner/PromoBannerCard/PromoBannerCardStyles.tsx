@@ -30,7 +30,7 @@ export const PromoBannerCardStyles = styled.div<PromoBannerStylesProps>`
     font-size: ${(props) => (props.smallCard ? "19px" : "22px")};
   }
   @media (max-width: 1025px) {
-    width: ${(props) => (props.smallCard ? "370px" : "350px")};
+    width: ${(props) => (props.smallCard ? "370px" : "320px")};
     height: ${(props) => (props.smallCard ? "240px" : "500px")};
     & img {
       width: 100%;
@@ -40,9 +40,9 @@ export const PromoBannerCardStyles = styled.div<PromoBannerStylesProps>`
     & h1 {
       width: ${(props) => (props.smallCard ? "50%" : "100%")};
       text-align: ${(props) => (props.smallCard ? "" : "center")};
-      font-size: ${(props) => (props.smallCard ? "30px" : "45px")};
+      font-size: ${(props) => (props.smallCard ? "27px" : "45px")};
       transform: translateY(
-          ${(props) => (props.smallCard ? "-250px" : "-260px")}
+          ${(props) => (props.smallCard ? "-230px" : "-260px")}
         )
         translateX(${(props) => (props.smallCard ? "10%" : "1%")});
     }
@@ -50,10 +50,10 @@ export const PromoBannerCardStyles = styled.div<PromoBannerStylesProps>`
       width: ${(props) => (props.smallCard ? "46%" : "70%")};
       text-align: ${(props) => (props.smallCard ? "" : "center")};
       transform: translateY(
-          ${(props) => (props.smallCard ? "-260px" : "-260px")}
+          ${(props) => (props.smallCard ? "-240px" : "-260px")}
         )
         translateX(${(props) => (props.smallCard ? "10%" : "23%")});
-      font-size: ${(props) => (props.smallCard ? "19px" : "22px")};
+      font-size: ${(props) => (props.smallCard ? "16px" : "20px")};
     }
   }
   @media (max-width: 767px) {
