@@ -59,7 +59,7 @@ export const AboutStyles = styled.div`
     }
     h1 {
       font-size: 50px;
-      margin: -30% auto 0 auto;
+      margin: -35% auto 0 auto;
     }
     .logo-image {
       height: 150px;

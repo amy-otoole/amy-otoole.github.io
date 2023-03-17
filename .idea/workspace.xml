@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7629af6-7269-49a3-9b4e-60bfcec776ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BionicReading/BionicReading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BionicReading/BionicReading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/SideDrawer/SideDrawer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/SideDrawer/SideDrawer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About/AboutStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/AboutStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Products/ProductsStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1678878932719" duration="1740000" />
       <workItem from="1678956739132" duration="1352000" />
       <workItem from="1678958287241" duration="3756000" />
-      <workItem from="1679049379423" duration="450000" />
+      <workItem from="1679049379423" duration="1270000" />
     </task>
     <servers />
   </component>
