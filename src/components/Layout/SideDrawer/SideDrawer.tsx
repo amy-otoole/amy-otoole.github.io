@@ -27,20 +27,19 @@ const SideDrawer = ({ open, closed }: SideDrawerProps) => {
               <BionicReading text={"Home >"} as={"a"} />
             </NavLink>
           </li>
-          {/*When Films is clicked redirect to the Films page */}
+          {/*When Products is clicked redirect to the Products page */}
           <li>
             <NavLink to="/products">
               <BionicReading text={"Products >"} as={"a"} />
             </NavLink>
           </li>
-          {/*When Subscribe is clicked redirect to the Subscribe page */}
+          {/*When About Us is clicked redirect to the About us page */}
           <li>
             <NavLink to="/about-us">
               <BionicReading text={"About Us >"} as={"a"} />
             </NavLink>
           </li>
-          {/*If the user is an admin then the Users link will be displayed. If clicked it will re-direct to the Users page */}
-        </ul>
+           </ul>
       </nav>
     </SideDrawerStyles>
   );

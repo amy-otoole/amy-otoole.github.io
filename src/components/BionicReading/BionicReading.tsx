@@ -12,7 +12,7 @@ const BionicReading = ({
   as: Component = "p",
   props,
 }: BionicReadingProps) => {
-  const highlightedText = textVide(text, { fixationPoint: 3 });
+  const highlightedText = textVide(text, { fixationPoint: 2 });
 
   return (
     // @ts-ignore

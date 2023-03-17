@@ -14,7 +14,6 @@ export const ProductsStyles = styled.div`
   }
   & .item-card-container {
     display: grid;
-    padding-left: 4%;
     grid-template-columns: auto auto auto auto;
   }
 
@@ -29,7 +28,6 @@ export const ProductsStyles = styled.div`
     }
     & .item-card-container {
       display: grid;
-      padding-left: 2%;
       grid-template-columns: auto auto;
       grid-template-rows: 430px 430px 430px 430px 430px 430px;
       margin-bottom: 3rem;
